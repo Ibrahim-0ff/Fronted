@@ -1,4 +1,6 @@
 # Fronted-projects
 For RoadMap.
 By Dudaev Ibrahim.
-Single-Page CV: https://github.com/Ibrahim-0ff/Fronted/tree/main/Single-Page%20CV
+Single-Page CV: 
+Example: https://roadmap.sh/projects/single-page-cv
+
