@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+
+    <!--SEO Meta Tags -->
+
+    <meta name="description" content="Basic HTML Website for RoadMap by Dudaev Ibrahim, a Fronted Developer">
+    <meta name="keywords" content="Basic HTML Website, HTML, Roadmap, Website">
+    <meta name="author" content="Dudaev Ibrahim">
+
+    <!-- Graph Meta Tags -->
+
+    <meta property="og:title" content="Dudaev Ibrahim - Fronted Developer">
+    <meta property="og:description" content="Basic HTML Website CV for RoadMap by Dudaev Ibrahim, a Fronted Developer">
+    <meta property="og:type" content="website">
+
+    <!-- Icon -->
+    <link rel="icon" href="https://www.narzan-kmv.ru/img/brain.svg"> 
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+
+    <!-- Style -->
+    <style>
+        body {
+            border: 2px solid #333;
+            margin: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Header */
+
+        header {
+            height: 60vh;
+            border-bottom: 2px solid #333;
+        }
+
+        h1, h2, h3 {
+            font-family: Mynerve;
+        }
+
+        nav {
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        nav ol {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 17px;
+            color: black;
+        }
+
+        .left-nav {
+            display: flex;
+            align-items: center;
+        }
+
+        .front-h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 50vh;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin: 2px;
+        }
+
+        .front-h1 span {
+            color: gray;
+        }
+
+        /* Main */ 
+
+        .main-section {
+            display: block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 55vh;
+        }
+
+        .div-padding {
+            padding: 25px;
+        }
+
+        main h2 {
+            font-size: 35px;
+        }
+
+        /* Footer */
+         
+        footer {
+            height: 35vh;
+        }
+
+        footer h3 {
+            border-top: 2px solid #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 35vh;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left-nav">
+                <div><ol>
+                    <li><img src="https://www.narzan-kmv.ru/img/brain.svg" width="30" alt="website logo"></li>
+                </ol></div>
+                <div>
+                    <span><a href="index.html">Dudaev Ibragim</a></span>
+                </div>
+            </div>
+
+            <div class="right-nav">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li>/</li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li>/</li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li>/</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ol>
+            </div>
+        </nav>
+
+        <div class="front-h1">
+            <div>
+                <h1>Fronted Developer</h1>
+                <h2>Third page</h2>
+                <span>html only with proper layout, and little styling</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="div-padding">
+            <article>
+                <h2>Articles</h2>
+                <h3>About HTML</h3>
+                <p>Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript, a programming language.</p>
+
+                <br>
+
+                <h3>Little bit about CSS</h3>
+                <p>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+
+                <br>
+
+                <h3>At least, what's about JavaSqript</h3>
+                <p>JavaScript, often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior.Web browsers have a dedicated JavaScript engine that executes the client code. These engines are also utilized in some servers and a variety of apps. The most popular runtime system for non-browser usage is Node.js.</p>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <h3>&copy all rights reserved 2025</h3>
+    </footer>
+</body>
+</html>

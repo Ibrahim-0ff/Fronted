@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+
+    <!--SEO Meta Tags -->
+
+    <meta name="description" content="Basic HTML Website for RoadMap by Dudaev Ibrahim, a Fronted Developer">
+    <meta name="keywords" content="Basic HTML Website, HTML, Roadmap, Website">
+    <meta name="author" content="Dudaev Ibrahim">
+
+    <!-- Graph Meta Tags -->
+
+    <meta property="og:title" content="Dudaev Ibrahim - Fronted Developer">
+    <meta property="og:description" content="Basic HTML Website CV for RoadMap by Dudaev Ibrahim, a Fronted Developer">
+    <meta property="og:type" content="website">
+
+    <!-- Icon -->
+    <link rel="icon" href="https://www.narzan-kmv.ru/img/brain.svg"> 
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+
+    <!-- Style -->
+    <style>
+        body {
+            border: 2px solid #333;
+            margin: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Header */
+
+        header {
+            height: 60vh;
+            border-bottom: 2px solid #333;
+        }
+
+        h1, h2, h3 {
+            font-family: Mynerve;
+        }
+
+        nav {
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        nav ol {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 17px;
+            color: black;
+        }
+
+        .left-nav {
+            display: flex;
+            align-items: center;
+        }
+
+        .front-h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 50vh;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin: 2px;
+        }
+
+        .front-h1 span {
+            color: gray;
+        }
+
+        /* Main */
+
+        .main-section {
+            display: block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 55vh;
+            border-bottom: 2px solid #333;
+        }
+
+        .div-padding {
+            padding: 5px;
+        }
+
+        main h2 {
+            font-size: 35px;
+        }
+
+        /* Footer */
+         
+         footer {
+            height: 35vh;
+        }
+
+        footer h3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 35vh;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left-nav">
+                <div><ol>
+                    <li><img src="https://www.narzan-kmv.ru/img/brain.svg" width="30" alt="website logo"></li>
+                </ol></div>
+                <div>
+                    <span><a href="index.html">Dudaev Ibragim</a></span>
+                </div>
+            </div>
+
+            <div class="right-nav">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li>/</li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li>/</li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li>/</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ol>
+            </div>
+        </nav>
+
+        <div class="front-h1">
+            <div>
+                <h1>Fronted Developer</h1>
+                <h2>Second page</h2>
+                <span>html only with proper layout, and little styling</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="main-section">
+            <h2 class="div-padding">My Projects</h2>
+            <h3 class="div-padding">Future and actual</h3>
+                    <p class="div-padding">HTML Only Portfolio</p>
+                    <p class="div-padding">Calculator</p>
+                    <p class="div-padding">Quiz App</p>
+                    <p class="div-padding">Countdown Timer</p>
+                    <p class="div-padding">Product Upcoming Page</p>
+        </section>
+    </main>
+    
+    <footer>
+        <h3>&copy all rights reserved 2025</h3>
+    </footer>
+</body>
+</html>

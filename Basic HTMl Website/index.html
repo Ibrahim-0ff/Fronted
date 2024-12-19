@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Website</title>
+
+    <!--SEO Meta Tags -->
+
+    <meta name="description" content="Basic HTML Website for RoadMap by Dudaev Ibrahim, a Fronted Developer">
+    <meta name="keywords" content="Basic HTML Website, HTML, Roadmap, Website">
+    <meta name="author" content="Dudaev Ibrahim">
+
+    <!-- Graph Meta Tags -->
+
+    <meta property="og:title" content="Dudaev Ibrahim - Fronted Developer">
+    <meta property="og:description" content="Basic HTML Website CV for RoadMap by Dudaev Ibrahim, a Fronted Developer">
+    <meta property="og:type" content="website">
+
+    <!-- Icon -->
+    <link rel="icon" href="https://www.narzan-kmv.ru/img/brain.svg"> 
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+
+    <!-- Style -->
+    <style>
+        body {
+            border: 2px solid #333;
+            margin: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Header */
+
+        header {
+            height: 60vh;
+        }
+
+        h1, h2, h3 {
+            font-family: Mynerve;
+        }
+
+        nav {
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        nav ol {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 17px;
+            color: black;
+        }
+
+        .left-nav {
+            display: flex;
+            align-items: center;
+        }
+
+        .front-h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 50vh;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin: 2px;
+        }
+
+        .front-h1 span {
+            color: gray;
+        }
+
+        /* Main */
+
+        h2 {
+            font-size: 27px;
+        }
+        
+        main hr {
+            border: 1px solid #333;
+            padding: 0;
+            margin: 0;
+        }
+
+        .hr-first {
+            transform: rotate(359deg);
+        }
+
+        .triple-section {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid #333 ;
+        }
+
+        main section {
+            width: 33%;
+        }
+
+        .center {
+            width: 34%;
+            display: grid;
+            grid-template-columns: 1Fr;
+            border-left: 2px solid #333;
+            border-right: 2px solid #333;
+        }
+
+        .center-top {
+            border-bottom: 2px solid #333;
+        }
+
+        .center-p-a-r {
+            font-family: Mynerve;
+        }
+
+        .center-a {
+            color: rgb(0, 119, 255);
+            font-size: 14px;
+        }
+
+        
+        .div-padding {
+            padding: 25px;
+        }
+
+        .right ul {
+            list-style-type: "- ";
+            padding: 5px;
+        }
+
+        .left p {
+            border-top: 2px solid #333;
+            padding: 10px 15px;
+            margin: 0;
+            
+        }
+
+        .left-div-padding {
+            padding: 15px 15px 5px;
+        }
+
+        .second-tripled-section {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .second-tripled-section section {
+            width: 25%;
+            border: 2px solid #333;
+            border-radius: 25%;
+        }
+
+        blockquote {
+            margin: 0;
+        }
+
+        cite p {
+            margin: 0;
+            color: rgb(200, 200, 200);
+        }
+
+        /* Footer */
+         
+        footer {
+            height: 40vh;
+        }
+
+        footer h3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 35vh;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left-nav">
+                <div><ol>
+                    <li><img src="https://www.narzan-kmv.ru/img/brain.svg" width="30" alt="website logo"></li>
+                </ol></div>
+                <div>
+                    <span><a href="index.html">Dudaev Ibragim</a></span>
+                </div>
+            </div>
+
+            <div class="right-nav">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li>/</li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li>/</li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li>/</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ol>
+            </div>
+        </nav>
+
+        <div class="front-h1">
+            <div>
+                <h1>Fronted Developer</h1>
+                <span>html only with proper layout, and little styling</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <hr class="hr-first">
+        <hr class="hr-second">
+
+        <div class="triple-section">
+            <section class="left">
+                    <h2 class="div-padding">Projects</h2>
+                    <p class="div-padding">HTML Only Portfolio</p>
+                    <p class="div-padding">Calculator</p>
+                    <p class="div-padding">Quiz App</p>
+                    <p class="div-padding">Countdown Timer</p>
+                    <p class="div-padding">Product Upcoming Page</p>
+            </section>
+
+            <section class="center">
+                <div class="center-top">
+                    <div class="div-padding">
+                        <h2>Work experience</h2>
+                        <p class="center-p-a-r"><a href="">roadmap.sh</a></p>
+                        <p>Solved all fronted projects</p>
+                        <p><a href="https://roadmap.sh/" class="center-a">Visit my Profile</a></p>
+                    </div>
+                </div>
+
+                <div class="center-bottom">
+                    <div class="div-padding">
+                    <h2>OpenSourse Work</h2>
+                    <p>Contributed to 50 opensourse projects. Made my own projects with 200 Github Stars.</p>
+                    <p><a href="https://github.com/" class="center-a">Visit my Github Profile</a></p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="right">
+                <div class="div-padding">
+                    <h2>Education</h2>
+                    <p>Gradueted with 4.68 out of 5 CGPA. Won Acme Hackation Organized 30 sessions.
+                    </p>
+                    <p>Courses i took:</p>
+                    <ul>
+                        <li>Object Oriented Programming</li>
+                        <li>Data Oriented and Algorithms</li>
+                        <li>Web Engineering</li>
+                        <li>Artificial Inteligence</li>
+                        <li>Human Computer Interaction</li>
+                        <li>Computer Graphics</li>
+                        <li>Database Management Systems</li>
+                        <li>Distributed Database Systems</li>
+                        <li>Discreet Mathematics</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <div class="second-section div-padding">
+            <h2>Reviews from my Teachers</h2>
+
+            <div class="second-tripled-section">
+                <section class="div-padding">
+                    <figure>
+                        <blockquote> 
+                            <p>John doe was a brilliant student: always stood out withs his assigments</p>
+                        </blockquote>
+                        <figcaption>
+                            <cite><p>Jana Doe</p></cite>
+                            <cite><p>Assistant Professor</p></cite>
+                        </figcaption>
+                       </figure>
+                </section>
+
+                <section class="div-padding">
+                    <figure>
+                        <blockquote> 
+                            <p>John doe was a brilliant student: always stood out withs his assigments</p>
+                        </blockquote>
+                        <figcaption>
+                            <cite><p>Jana Doe</p></cite>
+                            <cite><p>Assistant Professor</p></cite>
+                        </figcaption>
+                       </figure>
+                </section>
+
+                <section class="div-padding">
+                    <figure>
+                        <blockquote> 
+                            <p>John doe was a brilliant student: always stood out withs his assigments</p>
+                        </blockquote>
+                        <figcaption>
+                            <cite><p>Jana Doe</p></cite>
+                            <cite><p>Assistant Professor</p></cite>
+                        </figcaption>
+                       </figure>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h3>&copy all rights reserved 2025</h3>
+    </footer>
+</body>
+</html>
